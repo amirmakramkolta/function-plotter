@@ -1,0 +1,7 @@
+
+.item{
+    margin: 5px;
+    display: flex;
+    gap:10px;
+    flex-direction: column;
+}

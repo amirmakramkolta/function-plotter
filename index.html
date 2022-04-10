@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <section>
+        <form id="main-form">
+            <div class="item">
+                <label for="equation">Equation:</label>
+                <input name="equation" id="equation" type="text" placeholder="put you equation" required/>
+            </div>
+            <div class="item">
+                <label for="min-x">Min. X:</label>
+                <input name="min-x" id="min-x" type="number" placeholder="Min. X" required/>
+            </div>
+            <div class="item">
+                <label for="max-x">Max. X:</label>
+                <input name="max-x" id="max-x" type="number" placeholder="Max. X" required/>
+            </div>
+            <div class="item">
+                <label for="min-y">Min. Y:</label>
+                <input name="min-y" id="min-y" type="number" placeholder="Min. Y" required/>
+            </div>
+            <div class="item">
+                <label for="max-Y">Max. Y:</label>
+                <input name="max-y" id="max-y" type="number" placeholder="Max. Y" required/>
+            </div>
+            <div class="item">
+                <input id="clear" type="button" value="Clear Storage">
+                <input id="submitBtn" type="submit" value="Submit">
+            </div>
+        </form>
+        <div id="error-msg" style="color: red;"></div>
+    </section>
+    <script src="js/index.js"></script>
+</body>
+</html>
