@@ -20,3 +20,5 @@ like this equation: 5*x^3+2*x
 - Min X = -2, Max X = 7
 - MIn Y = 2, Max Y = 12
 
+## P.S.
+Please make this app work on a server
