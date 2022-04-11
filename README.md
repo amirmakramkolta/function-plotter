@@ -5,7 +5,7 @@ like this equation: 5*x^3+2*x
 
 ## Warning
 
-- In the equation input you should only use 'X' uppercase or lowercase, numbers and this operations sign only "+-*/^".
+- In the equation input you should only use 'X' uppercase or lowercase, numbers and this operations sign only "+-*/^" and no spaces.
 - You cannot assign Min X to be greater than Max X.
 - Same for Min Y and Max Y.
 - if you did some of this things the App will not work as you wish. 
