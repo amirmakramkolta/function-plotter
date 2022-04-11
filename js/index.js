@@ -18,7 +18,7 @@ equation.addEventListener('change',(e)=>{
     if(!result){
         errorMsg.innerHTML = "";
         submitBtn.disabled = true;
-        errorMsg.innerHTML += "please just use x and number and this Oprations signs (+-*/^)"
+        errorMsg.innerHTML += "please just use x or X and numbers and this Oprations signs (+-*/^) and no spaces."
     }else{
         errorMsg = "";
         submitBtn.disabled = false;
@@ -39,9 +39,9 @@ form.addEventListener('submit',(e)=>{
     let maxYToStorage = maxY.value;
 
     if(Number(minXToStorage)>Number(maxXToStorage)){
-        errorMsg.innerHTML += 'Min X should not be greater than Max X';
+        errorMsg.innerHTML += 'Min X should not be greater than Max X.';
     }else if(Number(minYToStorage)>Number(maxYToStorage)){
-        errorMsg.innerHTML += 'Min Y should not be greater than Max Y';
+        errorMsg.innerHTML += 'Min Y should not be greater than Max Y.';
     }else{
         localStorage.setItem('equation',equationToStorage);
         localStorage.setItem('min-x',minXToStorage);
